@@ -1,0 +1,151 @@
+body{
+    line-height: 1;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.btn{
+    font-size: 15px;
+}
+.c-mt-10{
+    margin-top: 10px;
+}
+.c-mt-15{
+    margin-top: 15px;
+}
+.c-mb-10{
+    margin-bottom: 10px;
+}
+.c-ml-10{
+    margin-left: 10px;
+}
+.c-pt-5{
+    padding-top: 5px;
+}
+.c-pt-10{
+    padding-top: 10px;
+}
+.c-w-100{
+    width: 100%;
+}
+.c-w-103{
+    width: 103%;
+}
+.c-ta-c{
+    text-align: center;
+}
+.c-ta-r{
+    text-align: right;
+}
+.c-h-80{
+    height: 80%;
+}
+.c-h-90{
+    height: 90%;
+}
+.c-h-100{
+    height: 100%;
+}
+.c-h-60{
+    height: 60%;
+}
+.c-h-60-px{
+    height: 60px;
+}
+.c-h-45-px{
+    height: 45px;
+}
+.c-h-78{
+    height: 78%;
+}
+.c-h-182-p{
+    height: 182px;
+}
+.c-border-s{
+    border: 2px solid #149DA4;
+    border-radius: 20px;
+}
+.c-border-s-b{
+    border-bottom: 2px solid #149DA4;
+}
+.c-border-s-l{
+    border-left: 2px solid #149DA4;
+}
+.c-h-100-p{
+    height: 100px;
+}
+.c-pass{
+    background-color: #0FF;
+    font-size: 14px;
+}
+.c-hor-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.c-bg-w{
+    background-color: #FFF !important;
+}
+.c-scroll{
+    overflow-y: auto;
+    padding-right: 5px;
+    height: 250px;
+}
+.form-control{
+    font-size: 11px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+.drop-area-enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #149DA4;
+    background-color: #d1f1d1;
+    border-color: #bee5eb;
+  }
+  
+  .drop-area-leave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #149DA4;
+    background-color: #f1ebd1;
+    border-color: #bee5eb;
+  }
+  
+  .drop-area-warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #149DA4;
+    background-color: #f1d6d1;
+    border-color: #bee5eb;
+  }
+  
+  .drop-area-over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    color: #149DA4;
+    background-color: #e3f1d1;
+    border-color: #bee5eb;
+  }
