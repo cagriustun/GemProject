@@ -1,7 +1,7 @@
-const GET_URL_1 = "https://3dspace24x.yenaplus.com/3dspace/resources/v1/modeler/dseng/dseng:EngItem/";
+const GET_URL_1 = "https://r1132101245499-eu1-ifwe.3dexperience.3ds.com/3dspace/resources/v1/modeler/dseng/dseng:EngItem/";
 const GET_URL_2 = "?$fields=dsmveno:CustomerAttributes&$mask=dsmveng:EngItemMask.Details";
 
-const PATCH_URL_1 = "https://3dspace24x.yenaplus.com/3dspace/resources/v1/modeler/dseng/dseng:EngItem/";
+const PATCH_URL_1 = "https://r1132101245499-eu1-ifwe.3dexperience.3ds.com/3dspace/resources/v1/modeler/dseng/dseng:EngItem/";
 const PATCH_URL_2 = "?$mask=dskern:Mask.Default&$fields=dsmveno:CustomerAttributes&$mva=true";
 
 
@@ -183,7 +183,7 @@ function executeWidgetCode() {
         var tezgah = tezgah != "" ? tezgah.split(" ")[0] + tezgah.split(" ")[1] : "";
         var tmpStr = { "dseno:EnterpriseAttributes": { [tezgahWithIndex]: tezgah, [tezgahSuresiWithIndex]: tezgahSuresi }, "cestamp": cestamp };
 
-        const getCSRFTokenUrl = "https://3dspace24x.yenaplus.com/3dspace" + "/resources/v1/application/CSRF";
+        const getCSRFTokenUrl = "https://r1132101245499-eu1-ifwe.3dexperience.3ds.com/3dspace" + "/resources/v1/application/CSRF";
         var csrfValue = "";
         WAFData.authenticatedRequest(getCSRFTokenUrl, {
           method: "GET",
