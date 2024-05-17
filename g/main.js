@@ -6,11 +6,11 @@ const PATCH_URL_2 = "?$mask=dskern:Mask.Default&$fields=dsmveno:CustomerAttribut
 
 
 var cuArray = [], cuIndex = 1, str = [], responseData = "", cestamp, objectID;
-var tezgahData = [
-  { "value": "Makine 1", "text": "Makine 1" },
-  { "value": "Makine 2", "text": "Makine 2" },
-  { "value": "Makine 3", "text": "Makine 3" },
-];
+// var tezgahData = [
+//   { "value": "Makine 1", "text": "Makine 1" },
+//   { "value": "Makine 2", "text": "Makine 2" },
+//   { "value": "Makine 3", "text": "Makine 3" },
+// ];
 
 function executeWidgetCode() {
   require(["DS/WAFData/WAFData", "DS/DataDragAndDrop/DataDragAndDrop"], function (WAFData, DataDragAndDrop) {
